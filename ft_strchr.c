@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: azaghran <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: azaghran <azaghran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 15:38:58 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/02 15:39:01 by azaghran         ###   ########.fr       */
+/*   Updated: 2024/11/04 18:25:20 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,7 @@ char	*ft_strchr(const char *s, int c)
 	else
 		return (NULL);
 }
+
+
+
+

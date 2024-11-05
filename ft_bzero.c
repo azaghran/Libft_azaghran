@@ -6,7 +6,7 @@
 /*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:09:03 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/04 18:35:07 by azaghran         ###   ########.fr       */
+/*   Updated: 2024/11/05 09:46:14 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,14 @@
 
 void	ft_bzero(void *s, size_t n)
 {
+	size_t			i;
 	unsigned char	*p;
 
 	p = s;
+	i = 0;
 	while (n--)
-		*p++ = 0;
+	{
+		p[i] = 0;
+		i++;
+	}
 }

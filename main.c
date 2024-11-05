@@ -1,23 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/04 18:30:11 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/05 10:25:32 by azaghran         ###   ########.fr       */
+/*   Created: 2024/11/05 09:49:07 by azaghran          #+#    #+#             */
+/*   Updated: 2024/11/05 09:49:07 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
-char	*ft_strchr(const char *s, int c)
+int	main(void)
 {
-	while ((*s != '\0') && (*s != (char)c))
-		s++;
-	if (*s == (char)c)
-		return ((char *)s);
-	else
-		return (NULL);
+	int	a;
+
+	a = 0;
+	printf("%ld \n", &a - &a);
 }

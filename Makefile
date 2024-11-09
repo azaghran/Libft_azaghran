@@ -41,13 +41,8 @@ OBJS = $(SRCS:%.c=%.o)
 
 all: $(NAME)
 
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
-
 $(NAME): $(OBJS)
-	ar rc $(NAME) $(OBJS)
-	ranlib $(NAME)
- 
+	ar rc $(NAME) $(OBJS) 
 clean:
 	rm -f $(OBJS)
 

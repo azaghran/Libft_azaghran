@@ -6,7 +6,7 @@
 /*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 10:09:58 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/05 10:09:58 by azaghran         ###   ########.fr       */
+/*   Updated: 2024/11/06 16:31:41 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,7 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	word_count = count_words(s, c);
 	split = (char **)malloc(sizeof(char *) * (word_count + 1));
-	if (!split)
+	if (split == NULL)
 		return (NULL);
 	i = 0;
 	start = 0;

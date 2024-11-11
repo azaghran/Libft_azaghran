@@ -6,7 +6,7 @@
 /*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 10:03:42 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/05 12:59:04 by azaghran         ###   ########.fr       */
+/*   Updated: 2024/11/11 14:48:31 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*str;
-	size_t	i;
-	size_t	j;
+	int		i;
+	int		j;
 	size_t	s1_len;
 	size_t	s2_len;
 

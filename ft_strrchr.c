@@ -3,21 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: azaghran <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 15:39:17 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/02 15:39:20 by azaghran         ###   ########.fr       */
+/*   Updated: 2024/11/11 13:40:34 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 
-	i = 0;
-	while (s[i])
-		i++;
+	i = ft_strlen(s);
 	while (i >= 0)
 	{
 		if (s[i] == (char)c)

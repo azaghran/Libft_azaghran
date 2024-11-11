@@ -6,7 +6,7 @@
 /*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/05 10:25:17 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/09 13:35:26 by azaghran         ###   ########.fr       */
+/*   Updated: 2024/11/11 11:22:08 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		return (dest);
 	if (d < s)
 	{
-		while (n--)
-			*d++ = *s++;
+		ft_memcpy(d, s, n);
 	}
 	else
 	{

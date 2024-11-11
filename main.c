@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/05 09:49:07 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/09 18:15:44 by azaghran         ###   ########.fr       */
+/*   Created: 2024/11/11 10:00:40 by azaghran          #+#    #+#             */
+/*   Updated: 2024/11/11 15:47:51 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,5 @@
 
 int	main(void)
 {
-	char	*d = NULL;
-	char	*s = "Ahmed";
-	size_t	len;
-	
-	len = strlcat(d, s, 0);
-	printf("%zu\n", len);
-	printf("%s\n", d);
+	ft_putchar_fd('f', -5);
 }

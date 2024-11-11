@@ -6,7 +6,7 @@
 /*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 18:02:14 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/09 16:53:37 by azaghran         ###   ########.fr       */
+/*   Updated: 2024/11/11 11:20:22 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	s = src;
 	if (dest == src)
 		return (dest);
-	while (n--)
+	while (i < n)
 	{
 		d[i] = s[i];
 		i++;

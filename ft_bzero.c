@@ -6,7 +6,7 @@
 /*   By: azaghran <azaghran@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 17:09:03 by azaghran          #+#    #+#             */
-/*   Updated: 2024/11/09 09:41:11 by azaghran         ###   ########.fr       */
+/*   Updated: 2024/11/11 10:33:27 by azaghran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	size_t			i;
-	unsigned char	*p;
-
-	p = s;
-	i = 0;
-	while (n--)
-	{
-		p[i] = 0;
-		i++;
-	}
+	ft_memset(s, 0, n);
 }
